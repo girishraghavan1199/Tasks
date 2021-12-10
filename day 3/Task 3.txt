@@ -1,0 +1,119 @@
+
+FOR LOOP
+
+var data = [{
+  
+"Name" : "girish",
+  
+"Age" : "22",
+  
+"Degree" : "M.SC information technology",
+
+"College" : "SRM INSTITUTE OF SCIENCE AND TECHNOLOGY"
+
+}];
+
+
+for (var i=0; i<data.length; i++)
+
+{
+    
+console.log(data[i]);
+
+}
+
+Output:
+{ Name: 'girish',
+  Age: '22',
+  Degree: 'M.SC information technology',
+  College: 'SRM INSTITUTE OF SCIENCE AND TECHNOLOGY' }
+//////
+
+FOR IN LOOP
+
+
+var data = {
+  
+"Name" : "girish",
+  
+"Age" : "22",
+  
+"Degree" : "M.SC information technology",
+
+"College" : "SRM INSTITUTE OF SCIENCE AND TECHNOLOGY"
+
+};
+
+
+for (var pr in data)
+
+{
+    
+console.log(pr,":",data[pr]);
+
+}
+
+Output:
+Name : girish
+Age : 22
+Degree : M.SC information technology
+College : SRM INSTITUTE OF SCIENCE AND TECHNOLOGY
+
+////////////////////////////
+
+FOR OF LOOP
+
+var data = [{
+  
+"Name" : "girish",
+  
+"Age" : "22",
+  
+"Degree" : "M.SC information technology",
+
+"College" : "SRM INSTITUTE OF SCIENCE AND TECHNOLOGY"
+
+}];
+
+
+for (var pr in data)
+
+{
+    
+console.log(pr);
+
+}
+
+Output:
+{ Name: 'girish',
+  Age: '22',
+  Degree: 'M.SC information technology',
+  College: 'SRM INSTITUTE OF SCIENCE AND TECHNOLOGY' }
+
+///////////////////////////////
+
+FOREACH LOOP
+
+var data = [{
+  
+"Name" : "girish",
+  
+"Age" : "22",
+  
+"Degree" : "M.SC information technology",
+
+"College" : "SRM INSTITUTE OF SCIENCE AND TECHNOLOGY"
+
+}];
+
+
+data.forEach(element => console.log(element));
+
+Output:
+{ Name: 'girish',
+  Age: '22',
+  Degree: 'M.SC information technology',
+  College: 'SRM INSTITUTE OF SCIENCE AND TECHNOLOGY' }
+
+/////////////////////////////////////
+

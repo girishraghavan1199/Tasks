@@ -1,0 +1,38 @@
+{
+  "Basic Information": [{
+    "name": "GIRISHRAGHAVAN.V",
+    "email": "girish11@gmail.com",
+    "phone": "9876543210",
+    "location": [{
+      "address": "Chengalpattu",
+      "postalCode": "603101",
+      "city": "chennai"
+    }],
+    "profiles": [{
+      "network": "Linked-In",
+      "username": "girish raghavan",
+      "url": "https://twitter.com/girish raghavan"
+    }]
+  }],
+  "education": [{
+    "institution": "SRM INSTITUTE OF SCIENCE AND TECHNOLOGY",
+    "Department": "INFORMATION TECHNOLOGY",
+    "Degree": "Master in information technology",
+    "startDate": "01/06/2020",
+    "endDate": "30/03/2022",
+    "score": "9.2"
+  }],
+  "skills": [{
+      "1" :"JavaScript",
+      "2": "html",
+      "3": "Python",
+      "4": "css",
+      "5" :"github",
+      "6": "My Sql"
+  }],
+  "Known languages": ["Tamil","English"],
+  
+  "Sports": ["shuttle","volley ball","throw ball","carrom board"]
+  
+  
+}
